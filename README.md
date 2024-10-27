@@ -33,6 +33,12 @@ and promotions.
 **Supply Chain Optimization:** Streamlining the ordering process to align with predicted
 sales and avoid disruptions.
 
+## Data Set Explanation:
+**Sales Data:** Historical sales records (Date, Pizza Type, Quantity Sold, Price, Category,
+Ingredients)
+**Ingredient Data:** Ingredient requirements for each pizza type (Pizza Type, Ingredient,
+Quantity Needed)
+
 ## Approach:
 ### Data Preprocessing and Exploration
 1. **Data Cleaning:** Remove any missing or inconsistent data entries,
