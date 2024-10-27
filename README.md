@@ -21,42 +21,42 @@ preventing stockouts. This project aims to leverage historical sales data and in
 information to develop a predictive model and generate an efficient purchase order
 system.
 ## Business Use Cases:
-Inventory Management: Ensuring optimal stock levels to meet future demand without
+**Inventory Management:** Ensuring optimal stock levels to meet future demand without
 overstocking.
 
-Cost Reduction: Minimizing waste and reducing costs associated with expired or
+**Cost Reduction:** Minimizing waste and reducing costs associated with expired or
 excess inventory.
 
-Sales Forecasting: Accurately predicting sales trends to inform business strategies
+**Sales Forecasting:** Accurately predicting sales trends to inform business strategies
 and promotions.
 
-Supply Chain Optimization: Streamlining the ordering process to align with predicted
+**Supply Chain Optimization:** Streamlining the ordering process to align with predicted
 sales and avoid disruptions.
 
 ## Approach:
 ### Data Preprocessing and Exploration
-1. Data Cleaning: Remove any missing or inconsistent data entries,
+1. **Data Cleaning:** Remove any missing or inconsistent data entries,
 handle outliers, and format the data appropriately.
-2. Exploratory Data Analysis (EDA): Analyze sales trends, seasonality,
+2. **Exploratory Data Analysis (EDA):** Analyze sales trends, seasonality,
 and patterns in the historical sales data. Visualize the data to identify
 significant features.
 
 ### Sales Prediction
-3. Feature Engineering: Create relevant features from the sales data,
+3. **Feature Engineering:** Create relevant features from the sales data,
 such as day of the week, month, promotional periods, and holiday
 effects.
-4. Model Selection: Choose an appropriate time series forecasting model
+4. **Model Selection:** Choose an appropriate time series forecasting model
 (e.g., ARIMA, SARIMA, Prophet, LSTM, Regression Model).
-5. Model Training: Train the predictive model on the historical sales data.
-6. Model Evaluation: Use metric Mean Absolute Percentage Error (MAPE)
+5. **Model Training:** Train the predictive model on the historical sales data.
+6. **Model Evaluation:** Use metric Mean Absolute Percentage Error (MAPE)
 to evaluate model performance.
 
 ### Purchase Order Generation
-7. Sales Forecasting: Predict pizza sales for the next one week (your
+7. **Sales Forecasting**: Predict pizza sales for the next one week (your
 choice of months or weeks) using the trained model.
-8. Ingredient Calculation: Calculate the required quantities of each
+8. **Ingredient Calculation:** Calculate the required quantities of each
 ingredient based on the predicted sales and the ingredient dataset.
-9. Purchase Order Creation: Generate a detailed purchase order listing
+9. **Purchase Order Creation:** Generate a detailed purchase order listing
 the quantities of each ingredient needed for the predicted sales period.
 
 ## Results:
