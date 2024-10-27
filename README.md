@@ -36,6 +36,7 @@ sales and avoid disruptions.
 ## Data Set Explanation:
 **Sales Data:** Historical sales records (Date, Pizza Type, Quantity Sold, Price, Category,
 Ingredients)
+
 **Ingredient Data:** Ingredient requirements for each pizza type (Pizza Type, Ingredient,
 Quantity Needed)
 
